@@ -1,0 +1,232 @@
+@charset "ISO-8859-1";
+
+.img1{
+    width: 90%;
+    height: 90%;        
+}
+.img2{
+    width: 100%;
+    height: 100%;        
+}
+.shop{
+    color: rgb(52, 188, 236);
+    font-family: Roboto , sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+}
+.shop1{
+    color: #30557d;
+    font-family: Roboto , sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.time{
+    color: rgb(68, 68, 68);
+    font-family: Roboto , sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.start1{
+    /* color: #30557d; */
+    background-color: #30557d;
+}
+.div1{
+    /* height: 30vh; */
+    background-image: url(../images/background/Background-1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.div2{
+    height: 30vh;
+}
+.div3{
+    background-color: #cbc9c9;
+}
+.product{
+    font-family: Outfit , sans-serif;
+    font-weight: 500;
+    color: #30557d;
+    /* font-size:  */
+}
+.back{
+    background-color: #eaeef2;
+}
+.accordion{
+    --bs-accordion-bg: none;
+}
+button:focus:not(:focus-visible) {
+    outline: none;
+}
+.accordion-button:hover {
+    z-index: none;
+}
+.accordion-button:focus {
+    z-index: none;
+    border-color: none;
+    outline: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: none !important;
+    background-color: none !important;
+}
+.laptop{
+    color: #333e48;
+    font-family: Roboto ,sans-serif;
+    font-size: 13px;
+}
+li{
+    margin-bottom: 10px;
+}
+.follow{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.laptop1{
+    color: #333e48;
+    font-family: Roboto ,sans-serif;
+    font-size: 15px;
+}
+.sec1{
+    background-color: #f2f1f1;
+
+}
+.back1{
+    background-image: url(../images/background/h9_banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50vh;
+}
+.back2{
+    background-image: url(../images/background/h9_banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 50vh; */
+}
+.back3{
+    background-image: url(../images/background/h9_banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vh;
+}
+.back4{
+    background-image: url(../images/background/h9_banner-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vh;
+}
+.mate{
+    font-family: Roboto ,sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    /* color: #fff; */
+    line-height: 1em;
+}
+.mate1{
+    font-family: Roboto ,sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    /* color: #fff; */
+    line-height: 1em;
+    text-align: right;
+}
+.mate2{
+    font-family: Roboto ,sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    /* color: #fff; */
+    line-height: 1em;
+}
+.mate3{
+    font-family: Roboto ,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    /* color: #fff; */
+    line-height: 1em;
+}
+.mate4{
+    font-family: Roboto ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #bbb8b8; */
+    line-height: 25px;
+}
+.cart1{
+    padding: 10px 25px;
+}
+@media(min-width:576px){
+    .div2{
+        height: 40vh;
+    }
+    .shop{
+        font-size: 11px;
+    }
+    .time{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .back1{
+        height: 70vh;
+    }
+}
+@media(min-width:768px){
+    .div2{
+        height: 55vh;
+    }
+    .shop,.start,.shop1{
+        font-size: 20px;
+    }
+    .time{
+        font-size: 39px;
+        line-height: 39px;
+    }
+    .back3{
+        height: 34vh;
+    }
+    .back4{
+        height: 34vh;
+    }
+}
+@media(min-width:992px){
+    .div2{
+        height: 65vh;
+    }
+    .time{
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+@media(min-width:1200px){
+    .div2{
+        height: 75vh;
+    }
+    .time{
+        font-size: 63px;
+        line-height: 63px;
+    }
+}
+@media(min-width:1400px){
+    .div2{
+        height: 85vh;
+    }
+    .time{
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+/* @media(min-width:1500px){
+    .div2{
+        height: vh;
+    }
+} */
+
+.mate5{
+    font-family: Roboto ,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    /* color: #bbb8b8; */
+    line-height: 25px;
+}
+.gap{
+    height: 100vh;
+}
